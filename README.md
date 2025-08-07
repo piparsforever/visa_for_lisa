@@ -30,16 +30,3 @@ We tackled the problem in the classic five-stage data-science workflow:
    * Created notebook visuals and a slide deck summarising business impact, risks, and recommended targeting threshold.
 
 All code lives in a single reproducible Jupyter notebook (`visa_for_lisa.ipynb`); the trained model artifact is saved as `loan_acceptance_model.joblib`.
-
-## Installation
-```bash
-# clone the repo
-git clone <repo_url>
-cd visa_for_lisa
-
-# set up environment
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
-```
-JupyterLab / Notebook must also be installed (`pip install jupyterlab`).
